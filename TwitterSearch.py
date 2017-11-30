@@ -35,4 +35,4 @@ api = TwitterAPI(consumerkey, consumersecret, accesstoken, accesssecret)
 tweets = api.request('search/tweets', {'q': 'h1b', 'count': 100})
 
 # Print them
-print (tweets.text)
+print(tweets.text)
